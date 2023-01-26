@@ -3,3 +3,4 @@ public interface StockSubject {
   void removeObserver(StockObserver o);
   void notifyObservers();
 }
+
