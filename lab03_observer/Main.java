@@ -27,7 +27,7 @@ public class Main {
         DataFile db = new DataFile("dbtest.csv");
 
         // This is "sort of" pushing out information to all the observers
-        for (int i=0; i<10; i++) {
+        for (int i=1; i!=0; i++) {
 
             // simulated subject data change
             stockGenerator();
